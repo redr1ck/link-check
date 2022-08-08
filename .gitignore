@@ -1,3 +1,5 @@
+.idea/
+**/__pycache__
 venv
 result_aio.txt
 result_req.txt
