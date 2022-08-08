@@ -7,6 +7,7 @@ result = {}
 
 async def fetch(url, page_number, session):
     async with session.get(url) as response:
+        # Just for console log
         date = response.headers.get("DATE")
         print("{}:{}".format(date, response.url))
         page = await response.text()
