@@ -1,3 +1,35 @@
+## eng
+# Description
+The repository contains two script files aiohttp_script.py and link_req_script.py along with a dependencies file named requirements.txt. Interestingly, both scripts address the same task but employ different approaches.
+### To run the tests:
+1. Clone the repository.
+2. Create and activate a virtual environment (venv):
+
+      ```
+      python3 -m venv venv
+
+      # On Windows:
+      venv\Scripts\activate
+
+      # On macOS/Linux:
+      source venv/bin/activate
+      ```
+3. Install dependencies: 
+
+      `pip install -r requirements.txt`
+
+4. Run scripts: 
+
+      `python aiohttp_script.py` - This command is used to execute the script utilizing the aiohttp library. Upon successful completion, a file named _result_aio.txt_ containing the execution results will be generated in the current directory.
+
+      `python link_req_script.py` - This command is used to execute the script utilizing the requests library. Upon successful completion, a file named _result_req.txt_ containing the execution results will be generated in the current directory.
+
+
+
+
+
+
+## rus
 # _Краткое описание_ 
 
 В репозитории имеются файлы скриптов aiohttp_script.py и link_req_script.py, так же файл с зависимостями
